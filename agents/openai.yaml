@@ -1,0 +1,7 @@
+interface:
+  display_name: "Task Handoff"
+  short_description: "Continue Codex coding tasks across conversations"
+  default_prompt: "Use $task-handoff to preserve or resume the current coding task across Codex conversations."
+
+policy:
+  allow_implicit_invocation: true
